@@ -32,7 +32,7 @@ while turns != 0
     puts "You avoided danger and may move again"
     turns -= 1
   else
-    puts OK
+  puts "Your request could not be deciphered."
   end
 end
 puts "Congratulations you won!"
