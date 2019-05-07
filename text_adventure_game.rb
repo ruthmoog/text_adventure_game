@@ -19,3 +19,5 @@
 
 puts "You are facing forward, and the game begins."
 puts "To move right, type R.  To move left, type L.  To move forward, type F."
+puts "Where would you like to move? ..."
+move = gets.chomp
