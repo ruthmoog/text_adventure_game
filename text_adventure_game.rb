@@ -20,4 +20,9 @@
 puts "You are facing forward, and the game begins."
 puts "To move right, type R.  To move left, type L.  To move forward, type F."
 puts "Where would you like to move? ..."
-move = gets.chomp
+move = gets.chomp.upcase
+if move[0] == "R"
+  abort("You were turned to stone by a goblin.  Sorry, you're dead!")
+else
+  puts "OK"
+end
