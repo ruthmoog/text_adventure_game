@@ -25,6 +25,8 @@ if move[0] == "R"
   abort("You were turned to stone by a goblin.  Sorry, you're dead!")
 elsif move[0] == "L"
   abort("You were disembowled by a werewolf. Sorry, you're dead!")
+elsif move[0] == "F"
+  puts "You avoided danger and may move again"
 else
   puts "OK"
 end
